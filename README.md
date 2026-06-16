@@ -1,15 +1,15 @@
 # biological-age-calculator
 A computational tool designed to calculate comparative biological age based on physiological and lifestyle biomarkers.
-# Comprehensive Biological Age & Biomarker Computational Pipeline 🧬
+# Comprehensive Biological Age & Biomarker Computational Pipeline 
 
-## 📌 Technical Project Overview
+##  Technical Project Overview
 This production-ready C pipeline implements a multi-parametric assessment framework to compute, normalize, and evaluate human cellular aging profiles against chronological age. 
 
 By modeling interactions between structural variables, lifestyle stressors, metabolic outputs, and pathobiological comorbidities, the system calculates a deterministic **Biological Age Index**. Additionally, it compiles dynamically adjusted dietary interventions based on targeted clinical risk vectors.
 
 ---
 
-## 🔬 Algorithmic Architecture & Biomarker Mathematical Models
+##  Algorithmic Architecture & Biomarker Mathematical Models
 
 The application is engineered with structural modularity, delegating biological calculations into isolated mathematical domains to prevent data skewing:
 
@@ -36,7 +36,7 @@ $$\text{BioAge} = \text{Age} + \left(\frac{DD}{180}\right) + (\text{Comorbiditie
 
 ---
 
-## 🛠️ Code Architecture & Execution Flow
+##  Code Architecture & Execution Flow
 
 * **Custom Data Typing (`struct Person`):** Consolidates primary primitive data tracking variables (`int`, `float`, and multidimensional `char` arrays) within a unified stack memory block, ensuring high localization and low cache-miss latency.
 * **Defensive User Input Parsing (`inputDiseases`):** Implements a selection array verification matrix (`selected[option - 1] == 0`) to enforce strict input data validation. This logic bounds options between values 1–7 and blocks redundant, multi-entry allocation bugs.
@@ -44,14 +44,14 @@ $$\text{BioAge} = \text{Age} + \left(\frac{DD}{180}\right) + (\text{Comorbiditie
 
 ---
 
-## 🛠️ Technologies Used & Technical Stack
+##  Technologies Used & Technical Stack
 * **Core Languages:** C (Procedural logic implementation)
 * **Methodologies:** Modular Programming, Dynamic Data Validation, Structural Data Mapping
 * **Development Environment:** Local Compilers, Git versioning controls
 
 ---
 
-## 🚀 Execution & Biological Logic Output Example
+##  Execution & Biological Logic Output Example
 
 ### Diagnostic Runtime Pipeline Trace:
 ```text
